@@ -1,8 +1,7 @@
-package AoC_Day1;
+package AoC_Days;
 
 import java.io.File;
 import java.io.FileNotFoundException;
-import java.io.FileReader;
 import java.util.Scanner;
 
 public class Day1 {

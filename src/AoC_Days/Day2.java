@@ -1,24 +1,25 @@
-package AoC_Day2;
+package AoC_Days;
 
 import java.io.File;
 import java.io.FileNotFoundException;
-import java.util.Arrays;
-import java.util.Scanner;
-import java.util.regex.Pattern;
+import java.time.LocalTime;
 
 public class Day2 {
     static long sumOfInvalidIDs = 0;
     static File input = new File("src/AoC_Day2/Input_Day2.txt");
     static String[] inputTest = {"11-22","95-115","998-1012","1188511880-1188511890", "222220-222224", "1698522-1698528", "446443-446449", "38593856-38593862", "565653-565659", "824824821-824824827", "2121212118-2121212124"};
     static void main() throws FileNotFoundException {
-      Scanner reader = new Scanner(input);
-        String result = reader.nextLine();
-        String[] res1 = result.split(",");
-        for(String s : res1) {
-            checkSeqForInvalid(s);
-        }
+//      Scanner reader = new Scanner(input);
+//        String result = reader.nextLine();
+//        String[] res1 = result.split(",");
+//        for(String s : res1) {
+//            checkSeqForInvalid(s);
+//        }
+//
+//        System.out.println(sumOfInvalidIDs);
 
-        System.out.println(sumOfInvalidIDs);
+        LocalTime start = LocalTime.parse("4:22");
+        System.out.println(start);
     }
 
 
